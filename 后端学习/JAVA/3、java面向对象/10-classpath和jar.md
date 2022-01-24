@@ -2,7 +2,11 @@
 2、jar
 
 1、classpath
-是JVM用到的一个环境变量，它用来指示JVM如何搜索`class`
+是JVM用到的一个环境变量，它用来指示JVM如何搜索`class`。
+
+为Java是编译型语言，源码文件是`.java`，而编译后的`.class`文件才是真正可以被JVM执行的字节码。因此，JVM需要知道，如果要加载一个`abc.xyz.Hello`的类，应该去哪搜索对应的`Hello.class`文件。
+
+所以，`classpath`就是一组目录的集合，它设置的搜索路径与操作系统相关。
 
 2、jar
 

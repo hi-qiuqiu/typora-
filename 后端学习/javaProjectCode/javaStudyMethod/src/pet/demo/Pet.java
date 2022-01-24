@@ -1,9 +1,9 @@
 package pet.demo;
 
-public class Pet {
+public class Pet<String> {
     private String name;
     private int age;
-    protected String birthday = "2020-4";
+    protected java.lang.String birthday = "2020-4";
 
     public Pet(String name, int age){
         this.setName(name);
