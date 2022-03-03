@@ -1,7 +1,7 @@
 package com.itranswarp.learnjava.service;
 
-import java.awt.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class UserService {
     private MailService mailService;
